@@ -1,0 +1,162 @@
+html {
+	height: 100%;
+	}
+
+body {
+	background-image: url('../images/texturetastic_gray.jpg');
+	background-attachment: fixed;
+	/*background-color: lightgray;*/
+	min-height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align:center;
+	color: #333;
+	}
+
+div#nav {
+background-color: #333;
+width: 120%;
+min-height: 40px;
+margin-left: -20px;
+color: gray;
+font-size: 1.5em;
+}
+
+div#nav ul {
+margin-top: -10px;
+margin-left: -1095px;
+margin-bottom: -10px;
+padding-top: 5px;
+}
+div#nav li{
+line-height: 10px;
+margin-top: 80px;
+font-size: 18px;
+list-style: none;
+display: inline;
+padding-top: 30px;
+padding-right: 10px;
+padding-left: 5px;
+border-right: 1px solid #000000;
+}	
+
+div#nav li:last-child {
+border-right: none;
+}
+
+/*div#header {
+width: 120%;
+min-height: 40px;
+margin-left: -30px;
+background-color: #333;
+}*/
+
+div#bodywrapper {
+width:960px;
+margin:0 auto;
+margin-top: -27px;
+background-color: white;
+text-align: left;
+min-height: 538px;
+box-shadow: 3px 3px 15px #999;
+padding-bottom: 40px;
+}
+
+div#mainwrapper {
+width: 900px;
+margin-left: 30px;
+}
+div#address {
+position: relative;
+margin-left: 73%;
+margin-top: -110px;
+margin-bottom: 50px;
+}
+
+div#address li {
+	list-style-type: none;
+}
+
+div#schoolitem {
+margin-top: 15px;
+}
+
+div#schoolitem li {
+list-style-type: none;
+margin-left: -40px;
+padding: 0px;
+}
+
+div#workitem {
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+div#workitem li {
+margin-left: -40px;
+padding: 0px;
+}
+
+.name li {
+list-style-type: none;
+}
+
+.title {
+margin-left: 20px;
+}
+
+.description {
+margin-left: 40px;
+}
+
+.description li {
+margin-bottom: 5px;
+list-style-type: disc;
+}
+
+div#featurepic {
+position: relative;
+margin-left: 574px;
+margin-top: -125px;
+}
+
+div#about {
+width: 500px;
+margin-top: -465px;
+
+}
+
+div#about h2 {
+margin-bottom: 0px;
+font-style: italic;
+font-size: 1 em;
+}
+
+div#about p{
+line-height: 20px;
+}
+
+hr {
+margin-top: 5px;
+}
+h2 {
+margin-bottom: 0px;
+font-style: italic;
+font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: darkgray;
+	}
